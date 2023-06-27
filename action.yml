@@ -1,0 +1,9 @@
+name: 'Run Playwright tests'
+description: 'Run Playwright tests on GitHub Actions'
+author: 'Microsoft'
+branding:
+  icon: 'play'
+  color: 'green'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
